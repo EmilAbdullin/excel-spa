@@ -1,3 +1,6 @@
-import './module'
+import {Excel} from '@/components/excel/Excel'
 import './scss/index'
-console.log('working');
+
+const excel = new Excel('#app',{
+    components:[]
+})
